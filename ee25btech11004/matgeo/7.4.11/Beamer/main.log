@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.13)  1 OCT 2025 21:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.13)  27 OCT 2025 16:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1881,7 +1881,8 @@ l.2 ...erefore, it will subtend $2\times 45\degree
 l.2 ...will subtend $2\times 45\degree = 90\degree
                                                   $ at the centre of the cir...
 
-? 
+? R
+OK, entering \nonstopmode...
 LaTeX Font Info:    Font shape `OT1/lmss/b/n' in size <10.95> not available
 (Font)              Font shape `OT1/lmss/bx/n' tried instead on input line 6.
 LaTeX Font Info:    Font shape `OT1/lmss/b/n' in size <8> not available
@@ -1891,8 +1892,12 @@ LaTeX Font Info:    Font shape `OT1/lmss/b/n' in size <6> not available
 ! Undefined control sequence.
 l.8 ...\vec{P}$. $\vec{P}$ will be a $\pm90\degree
                                                   $ rotation of $\myvec{0\\1...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-? 
 )
 
 [3
@@ -1904,19 +1909,28 @@ l.8 ...\vec{P}$. $\vec{P}$ will be a $\pm90\degree
 (./main.vrb
 ! Undefined control sequence.
 <argument> \begin {pmatrix}\cos (\pm 90\degree 
-                                               ) & \sin (\pm 90\degree ) \\ ...
+                                               ) & -\sin (\pm 90\degree ) \\...
 l.10 \end{align}
                 
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
-<argument> ...m 90\degree ) & \sin (\pm 90\degree 
-                                                  ) \\ -\sin (\pm 90\degree ...
+<argument> ... 90\degree ) & -\sin (\pm 90\degree 
+                                                  ) \\ \sin (\pm 90\degree )...
 l.10 \end{align}
                 
-? R
-OK, entering \nonstopmode...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
-<argument> ...90\degree ) \\ -\sin (\pm 90\degree 
+<argument> ... 90\degree ) \\ \sin (\pm 90\degree 
                                                   ) & \cos (\pm 90\degree )\...
 l.10 \end{align}
                 
@@ -1939,7 +1953,7 @@ and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
 <argument> \begin {pmatrix}\cos (\pm 90\degree 
-                                               ) & \sin (\pm 90\degree ) \\ ...
+                                               ) & -\sin (\pm 90\degree ) \\...
 l.10 \end{align}
                 
 The control sequence at the end of the top line
@@ -1949,8 +1963,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-<argument> ...m 90\degree ) & \sin (\pm 90\degree 
-                                                  ) \\ -\sin (\pm 90\degree ...
+<argument> ... 90\degree ) & -\sin (\pm 90\degree 
+                                                  ) \\ \sin (\pm 90\degree )...
 l.10 \end{align}
                 
 The control sequence at the end of the top line
@@ -1960,7 +1974,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-<argument> ...90\degree ) \\ -\sin (\pm 90\degree 
+<argument> ... 90\degree ) \\ \sin (\pm 90\degree 
                                                   ) & \cos (\pm 90\degree )\...
 l.10 \end{align}
                 
@@ -2024,7 +2038,7 @@ Overfull \vbox (17.71033pt too high) detected at line 158
 \tf@snm=\write9
 \openout9 = `main.snm'.
 
-runsystem(latexminted cleantemp  --timestamp 20251001215940 FAD58DE7366495DB465
+runsystem(latexminted cleantemp  --timestamp 20251027163407 FAD58DE7366495DB465
 0CFEFAC2FCD61)...executed safely (allowed).
 
  (./main.aux)
@@ -2051,7 +2065,7 @@ nts/type1/public/lm/lmss8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/p
 ublic/lm/lmssbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm
 /lmsso10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsso8.p
 fb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on main.pdf (7 pages, 282616 bytes).
+Output written on main.pdf (7 pages, 282610 bytes).
 PDF statistics:
  287 PDF objects out of 1000 (max. 8388607)
  230 compressed objects within 3 object streams
